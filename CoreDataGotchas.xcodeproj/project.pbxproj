@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A29017E18C567EC00EE3B8B /* CoreDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29017D18C567EC00EE3B8B /* CoreDataTools.m */; };
 		9A881BB818C378260090DA10 /* _Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A881BB518C378260090DA10 /* _Song.m */; };
 		9A881BB918C378260090DA10 /* _Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A881BB518C378260090DA10 /* _Song.m */; };
 		9A881BBA18C378260090DA10 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A881BB718C378260090DA10 /* Song.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A29017C18C567EC00EE3B8B /* CoreDataTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTools.h; sourceTree = "<group>"; };
+		9A29017D18C567EC00EE3B8B /* CoreDataTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTools.m; sourceTree = "<group>"; };
 		9A881BB418C378260090DA10 /* _Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Song.h; sourceTree = "<group>"; };
 		9A881BB518C378260090DA10 /* _Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Song.m; sourceTree = "<group>"; };
 		9A881BB618C378260090DA10 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 		9AA4D8CC18BF5765006FCE50 /* CoreDataGotchasTests */ = {
 			isa = PBXGroup;
 			children = (
+				9A29017C18C567EC00EE3B8B /* CoreDataTools.h */,
+				9A29017D18C567EC00EE3B8B /* CoreDataTools.m */,
 				9AA4D8D218BF5765006FCE50 /* CoreDataGotchasTests.m */,
 				9AA4D8CD18BF5765006FCE50 /* Supporting Files */,
 			);
@@ -362,6 +367,7 @@
 				9AA4D8D318BF5765006FCE50 /* CoreDataGotchasTests.m in Sources */,
 				9A881BB918C378260090DA10 /* _Song.m in Sources */,
 				9A881BC018C49FEB0090DA10 /* NSObject+UIAlertView_Blocks.m in Sources */,
+				9A29017E18C567EC00EE3B8B /* CoreDataTools.m in Sources */,
 				9AA4D8E718BF598C006FCE50 /* MusicManager.m in Sources */,
 				9AA4D8EB18BF5C4F006FCE50 /* SongsDataSource.m in Sources */,
 			);
